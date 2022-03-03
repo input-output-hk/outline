@@ -74,7 +74,7 @@ export default async function teamCreator({
       };
     }
 
-    if (teamCount >= 1) {
+    if (teamCount >= 2) {
       throw MaximumTeamsError();
     }
   }
