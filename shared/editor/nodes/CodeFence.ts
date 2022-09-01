@@ -19,10 +19,12 @@ import clike from "refractor/lang/clike";
 import csharp from "refractor/lang/csharp";
 import css from "refractor/lang/css";
 import go from "refractor/lang/go";
+import haskell from "refractor/lang/haskell";
 import java from "refractor/lang/java";
 import javascript from "refractor/lang/javascript";
 import json from "refractor/lang/json";
 import markup from "refractor/lang/markup";
+import nix from "refractor/lang/nix";
 import objectivec from "refractor/lang/objectivec";
 import perl from "refractor/lang/perl";
 import php from "refractor/lang/php";
@@ -50,10 +52,12 @@ const DEFAULT_LANGUAGE = "javascript";
   clike,
   csharp,
   go,
+  haskell,
   java,
   javascript,
   json,
   markup,
+  nix,
   objectivec,
   perl,
   php,
